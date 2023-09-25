@@ -267,7 +267,7 @@ footer a {
     
 }
 
-/* CSS per 1220px */
+/* CSS per 1200px */
 @media screen and (min-width: 1200px) {
     body{
         margin: auto 5em;
@@ -345,4 +345,27 @@ footer{
     padding: 0.5em 2em;
     font-size: 7rem;
 }
+}
+
+/* CSS per stampa */
+@media print {
+    header{
+        display: none;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    table{
+        margin-left: 1em;
+    }
+    iframe{
+        display: none;
+    }
+    section{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    footer{display: none;}
 }
